@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lab5_1.Controller">
+   <children>
+      <Button fx:id="but_n1" layoutX="260.0" layoutY="185.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="1" />
+      <ProgressBar fx:id="ProgressBar1" layoutX="14.0" layoutY="417.0" prefHeight="30.0" prefWidth="372.0" progress="0.0" />
+      <ImageView fx:id="ImageView1" fitHeight="100.0" fitWidth="100.0" focusTraversable="true" layoutX="11.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="274.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="322.0" layoutY="24.0" prefHeight="18.0" prefWidth="64.0" text="Оплатить" AnchorPane.leftAnchor="322.0" AnchorPane.rightAnchor="14.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="but_n2" layoutX="305.0" layoutY="185.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="2" />
+      <Button fx:id="but_n3" layoutX="350.0" layoutY="185.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="3" />
+      <Button fx:id="but_n4" layoutX="260.0" layoutY="225.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="4" />
+      <Button fx:id="but_n5" layoutX="305.0" layoutY="225.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="5" />
+      <Label layoutX="260.0" layoutY="61.0" prefHeight="18.0" prefWidth="126.0" text="Внесение наличных:" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="14.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="TextBox2" layoutX="260.0" layoutY="80.0" prefHeight="25.0" prefWidth="93.0" AnchorPane.leftAnchor="260.0" />
+      <Button fx:id="but_n6" layoutX="350.0" layoutY="225.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="6" />
+      <Label layoutX="260.0" layoutY="162.0" prefHeight="18.0" prefWidth="126.0" text="Выберите товар:" AnchorPane.leftAnchor="260.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="but_n7" layoutX="260.0" layoutY="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="7" />
+      <Button fx:id="but_n8" layoutX="305.0" layoutY="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="8" />
+      <Button fx:id="but_n9" layoutX="350.0" layoutY="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="9" />
+      <Button fx:id="but_C" layoutX="260.0" layoutY="305.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="С" />
+      <Button fx:id="but_n0" layoutX="305.0" layoutY="305.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="0" />
+      <Button fx:id="but_E" layoutX="350.0" layoutY="305.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="E" />
+      <Label fx:id="Label1111" layoutX="260.0" layoutY="337.0" prefHeight="18.0" prefWidth="126.0" text="C - отмена, B - ввод." AnchorPane.leftAnchor="260.0" />
+      <Label layoutX="260.0" layoutY="361.0" prefHeight="18.0" prefWidth="126.0" text="Заберите сдачу:" AnchorPane.leftAnchor="260.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ImageView fx:id="ImageView2" fitHeight="100.0" fitWidth="100.0" layoutX="132.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImageView3" fitHeight="100.0" fitWidth="100.0" layoutX="11.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImageView4" fitHeight="100.0" fitWidth="100.0" layoutX="132.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImageView5" fitHeight="100.0" fitWidth="100.0" layoutX="11.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ImageView6" fitHeight="100.0" fitWidth="100.0" layoutX="132.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="Label1" layoutX="14.0" layoutY="131.0" prefHeight="18.0" prefWidth="103.0" />
+      <Label fx:id="Label2" layoutX="132.0" layoutY="131.0" prefHeight="18.0" prefWidth="115.0" />
+      <Label fx:id="Label3" layoutX="14.0" layoutY="249.0" prefHeight="18.0" prefWidth="103.0" />
+      <Label fx:id="Label4" layoutX="132.0" layoutY="249.0" prefHeight="18.0" prefWidth="103.0" />
+      <Label fx:id="Label5" layoutX="17.0" layoutY="373.0" prefHeight="18.0" prefWidth="103.0" />
+      <Label fx:id="Label6" layoutX="132.0" layoutY="373.0" prefHeight="18.0" prefWidth="103.0" />
+      <Label fx:id="Label_state" layoutX="75.0" layoutY="462.0" prefHeight="20.0" prefWidth="152.0" style="-fx-background-color: #ff4f00;" text="Автомат выключен">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button id="but11211css" fx:id="but_on_off" defaultButton="true" layoutX="17.0" layoutY="456.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #50c878;" text="ON" />
+      <Label layoutX="260.0" layoutY="105.0" prefHeight="1.0" prefWidth="126.0" text="5р, 10р, 50р, 100р">
+         <font>
+            <Font name="System Italic" size="10.0" />
+         </font>
+      </Label>
+      <Button fx:id="but_deposit" layoutX="356.0" layoutY="80.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="30.0" text="E" />
+      <Label fx:id="Label_choice" layoutX="260.0" layoutY="43.0" prefHeight="17.0" prefWidth="53.0" style="-fx-background-color: #eae6ca;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="24.0" prefHeight="18.0" prefWidth="64.0" text="Выбрано">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label_price" layoutX="322.0" layoutY="43.0" prefHeight="17.0" prefWidth="64.0" style="-fx-background-color: #eae6ca;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="119.0" prefHeight="18.0" prefWidth="126.0" text="Ваш баланс:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label_deposit" layoutX="260.0" layoutY="137.0" prefHeight="17.0" prefWidth="126.0" style="-fx-background-color: #eae6ca;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label_change" layoutX="260.0" layoutY="380.0" prefHeight="17.0" prefWidth="126.0" style="-fx-background-color: #eae6ca;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
